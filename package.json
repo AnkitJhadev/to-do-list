@@ -1,20 +1,31 @@
 {
   "name": "react-native",
   "version": "1.0.0",
-  "description": "React Native for Web starter template",
+  "description": "React Todo App with Redux Toolkit",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "18.2.*",
-    "react-dom": "18.2.*",
-    "react-native-web": "0.19.*",
-    "react-scripts": "3.3.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native-web": "0.18.12",
+    "react-scripts": "5.0.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react-redux": "^8.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
